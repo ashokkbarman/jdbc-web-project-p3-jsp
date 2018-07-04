@@ -9,12 +9,15 @@
 <body>
 	<%@ include file="header.jsp"%>
 	<hr />
+	<h1 align="center">Profile Page</h1>
+	<%
+		String message = (String) request.getAttribute("msg");
+		out.print(message);
+	%>
+	<!-- request.getAttribute ->requestScope -->
+	<%-- <br> ${requestScope.msg} --%>
 
-
-
-
-
-
+	
 
 
 
