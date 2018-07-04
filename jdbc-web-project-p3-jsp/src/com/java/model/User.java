@@ -1,4 +1,4 @@
-package model;
+package com.java.model;
 
 public class User {
 	
